@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int N1, N2;
@@ -13,3 +12,4 @@ int main()
     printf("Multiplication: %d\n", N1 * N2);
     printf("Division: %d\n", N1 / N2);
 }
+
