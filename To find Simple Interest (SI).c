@@ -1,9 +1,13 @@
 #include <stdio.h>
-int main() {
+int main()
+{
     float p, r, t, si;
-    printf("Enter P, R, T: ");
-    scanf("%f %f %f", &p, &r, &t);
+    printf("Enter the value of principle: ");
+    scanf("%f", &p);
+    printf("Enter the value of rate: ");
+    scanf("%f", &r);
+    printf("Enter the time: ");
+    scanf("%f", &t)
     si = (p * r * t) / 100;
-    printf("Simple Interest = %.2f", si);
-    return 0;
+    printf("SI:%.2f",si);
 }
