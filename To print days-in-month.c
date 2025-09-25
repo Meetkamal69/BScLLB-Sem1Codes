@@ -22,7 +22,7 @@ int main()
             printf("30 days\n");
             break;
         case 2:
-            printf("28 or 29 days (depending on leap year)\n");
+            printf("28 or 29 days\n");
             break;
         default:
             printf("Invalid month number! Please enter a number between 1 and 12.\n");
